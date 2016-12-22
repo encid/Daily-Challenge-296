@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConsoleApplication1 {
+namespace DailyChallenge296 {
     class Program {
 
         static void Main()
