@@ -15,15 +15,15 @@ namespace DailyChallenge296 {
                         "nine Ladies Dancing", "ten Lords a Leaping", "eleven Pipers Piping",
                         "twelve Drummers Drumming" };
 
-            for (int i = 1; i <= 12; i++) {
-                Console.WriteLine("");
-                Console.WriteLine("On the " + Days[i - 1] + " day of Christmas\nmy true love sent to me:");
-                for (int j = (i-1); j >= 0; j--) {
-                    if (i > 1) Gifts[0] = "and a Partridge in a Pear Tree";
+            for (int i = 0; i < 12; i++) {
+                Console.WriteLine("\nOn the {0} day of Christmas\nmy true love sent to me:", Days[i]);
+                for (int j = i; j >= 0; j--) {
+                    if (i > 0)
+                        Gifts[0] = "and a Partridge in a Pear Tree";
+                    else
+                        Gifts[0] = "a Partridge in a Pear Tree";
                     Console.WriteLine(Gifts[j]);
-                }
-                Gifts[0] = "a Partridge in a Pear Tree";          
-                
+                }                                
             }
             Console.ReadLine();
         }
