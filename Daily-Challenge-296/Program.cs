@@ -9,9 +9,10 @@ namespace DailyChallenge296 {
             var Days = new List<string> { "first", "second", "third", "fourth", "fifth", "sixth",
                         "seventh", "eighth", "ninth", "tenth", "eleventh", "twelveth" };
 
-            var Gifts = new List<string> { "a Partridge in a Pear Tree", "two Turtle Doves", "three French Hens",
-                        "four Calling Birds", "five Golden Rings", "six Geese a Laying", "seven Swans a Swimming",
-                        "eight Maids a Milking", "nine Ladies Dancing", "ten Lords a Leaping", "eleven Pipers Piping",
+            var Gifts = new List<string> { "a Partridge in a Pear Tree", "two Turtle Doves",
+                        "three French Hens", "four Calling Birds", "five Golden Rings",
+                        "six Geese a Laying", "seven Swans a Swimming", "eight Maids a Milking",
+                        "nine Ladies Dancing", "ten Lords a Leaping", "eleven Pipers Piping",
                         "twelve Drummers Drumming" };
 
             for (int i = 1; i <= 12; i++) {
